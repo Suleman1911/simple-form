@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    align-items: center;
+    /* justify-content: center; */
+    margin: 20% 40%;
+    gap: 15px;
+    border: 1px solid black;
+    height: 200px;
+    padding: 10px;
+}
+.form input{
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 15px;
+    outline: none;
+}
+.form button{
+    background-color: #000;
+    color: #fff;
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 15px;
+}
